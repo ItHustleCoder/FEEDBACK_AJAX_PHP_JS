@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>FEEDBACK</title>
+</head>
+<body>
+    <div class="container">
+        <h1>FEEDBACK</h1>
+        <form id="mailform">
+            <input type="email" id="email" name="email" placeholder="email" class="form-control"><br/>
+            <input type="text" id="name" name="name" placeholder="write your name" class="form-control"><br/>
+            <input type="phone" id="phone" name="phone" placeholder="Number of youre phone" class="form-control"><br/>
+            <textarea name="message" id="message" class="form-control"></textarea><br/>
+            <button type="button" id="sendMail" class="btn btn-success">SEND</button>
+        </form>
+        <div id="erroreMess"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/formMail.js"></script> 
+</body>
+</html>
